@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    border: 1px solid cornflowerblue;
+    background-color: yellowgreen; 
+}
+header{
+    text-align: center;
+    background-color: rgb(241, 157, 54);
+    padding: 40px;
+    font-family: cursive;
+    font-size: 200%;
+}
+nav a{
+    text-decoration: none;
+    display: inline; /* makes a tag elements in single line for different lineuse block*/
+    color: wheat;
+    /* background-color: black; */
+    text-align: center;
+    padding: 30px;
+    font-size: 180%;
+}
+nav{
+    background-color: brown;
+}
+*{
+    /* background-color: burlywood; */
+}
+nav a:hover{
+    color: black;
+    background-color: rgb(235, 192, 127);
+    border: 1px solid black;
+    text-decoration: none;
+}
+/* nav a:visited{
+    color: blue;
+} */
+h2{
+    font-family: sans-serif;
+    background-color: rgb(186, 245, 118);
+    margin: 0;
+    padding: 10px;
+}
+.footer{
+    background-color: rgb(230, 207, 207);
+    padding: 20px;
+    text-align: center;
+}
+.footer a{
+    padding: 20px;
+}
+.material, .review, .course{
+    text-align: center;
+    background-color: rgb(234, 252, 184);    
+    padding: 20px;
+}
+.material h2, .review h2, .course h2{
+    border: 1px solid black;
+}
+.material a{
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+}
+.material a img{
+    border: 1px solid black;
+    padding: 10px;
+}
